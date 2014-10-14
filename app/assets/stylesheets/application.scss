@@ -1,0 +1,40 @@
+$light-base-color: #FFE3CD;
+
+body {
+  background-color:#79C55D;
+  h1,h2,h3,h4,h5,h6 {
+    text-align:center;
+  }
+
+  a {
+    color: $light-base-color;
+  }
+  a:hover {
+    color: darken( $light-base-color, 10% );
+    text-decoration:none;
+  }
+}
+div.jumbotron {
+  background-color: $light-base-color;
+  width:100%;
+  h1 {
+    margin:.5em auto;
+    color:#79C55D;
+  }
+  .dino {
+    margin:0 auto;
+    max-width:359px;
+  }
+}
+footer h3 {
+  width:60%;
+  margin:1em auto;
+  font-size:1.5em;
+  color: $light-base-color;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  .jumbotron .dino {
+  }
+}

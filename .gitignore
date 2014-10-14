@@ -14,3 +14,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+/app/assests/images/makemeatacodino.ai
+/app/assests/images/makemeatacodino.psd

@@ -3,7 +3,7 @@ class StartController < ApplicationController
   def home
   end
 
-  def contact
+  def taco
   end
 
 end
